@@ -1,0 +1,29 @@
+Assignment 2: Due 11:59PM October 11
+
+Use Test First Development to create a console application that will let us
+monitor the net asset value.
+
+The program will read a file which contains a number of stock symbols and the
+number of shares held in each.
+
+It will then go out to Yahoo finance to fetch the latest stock price value for
+each of the ticker symbols given. The URL for this service is 
+
+http://ichart.finance.yahoo.com/table.csv?s=SYMBOL
+
+Once it finds the ticker symbol, the net asset value for that symbol is the
+price * number of shares.
+
+After computing the value, the program will print out in a tabular form,
+in descending order of worth, the following details:
+
+SYMBOL		price		number of shares	  worth
+...				...			...									...
+...				...			...									...
+...				...			...									...
+...				...			...									...
+...				...			...									...
+...				...			...									...
+...				...			...									...
+
+Total: The total worth
